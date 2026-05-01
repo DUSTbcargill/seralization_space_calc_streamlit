@@ -265,10 +265,10 @@ with st.sidebar:
     st.subheader("Particle Count")
     avg_particle_count = st.slider(
         "Average Particle Count",
-        min_value=50,
+        min_value=10,
         max_value=1000,
         value=200,
-        step=10
+        step=5
     )
     
     st.subheader("Collision Threshold")
